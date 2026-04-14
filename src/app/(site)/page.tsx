@@ -1,0 +1,28 @@
+﻿import type { Metadata } from "next";
+export const dynamic = "force-dynamic";
+import VideoHero from "@/components/home/VideoHero";
+import HeroSection from "@/components/home/HeroSection";
+import ServicosRapidos from "@/components/home/ServicosRapidos";
+import AcessoRapido from "@/components/home/AcessoRapido";
+import UltimasNoticias from "@/components/home/UltimasNoticias";
+import SecretariasSlider from "@/components/home/SecretariasSlider";
+import UnidadesAtendimento from "@/components/home/UnidadesAtendimento";
+
+export const metadata: Metadata = {
+    title: "Prefeitura Municipal de São Tomé – RN | Página Inicial",
+    description: "Site oficial da Prefeitura Municipal de São Tomé – RN. Transparência, serviços ao cidadão, notícias e informações institucionais.",
+};
+
+export default function Home() {
+    return (
+        <main>
+            <HeroSection />
+            <ServicosRapidos />
+            <UltimasNoticias />
+            <AcessoRapido />
+            <UnidadesAtendimento />
+            <VideoHero />
+            <SecretariasSlider />
+        </main>
+    );
+}

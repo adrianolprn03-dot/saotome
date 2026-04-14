@@ -38,18 +38,30 @@ next-env.d.ts
 /prisma/*.db-journal
 
 # build logs
-build_err.log
+build*.log
+*.log
 build_error.txt
 build_error_final.txt
 build_error_last.txt
 build_log.txt
 build_output*.log
+final_report.txt
 dirs.txt
 
-# temp files
-/tmp/
+# extra files
+Cartilha PNTP 2026.pdf
 *.html
-prefeitura_redesign*.png
+*.png
+git_log*.txt
+git_status.txt
+saotome_text.txt
+legis.json
+old_seed.ts
+tmp_seed.ts
+seed_scraped_data.ts
+update_tipo.ts
+fix_db.py
+fix_table_data.js
 
 .vercel
 .env*.local
