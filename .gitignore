@@ -49,6 +49,12 @@ final_report.txt
 dirs.txt
 
 # extra files
+/scratch/
+/scripts/
+/public/uploads/*
+!/public/uploads/.gitkeep
+build_log_debug.txt
+build_output.txt
 Cartilha PNTP 2026.pdf
 *.html
 *.png
