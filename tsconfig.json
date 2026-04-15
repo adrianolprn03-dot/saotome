@@ -36,9 +36,12 @@
     "exclude": [
         "node_modules",
         "scripts",
+        "scratch",
         "prisma",
         "tmp",
         "old_seed.ts",
-        "tmp_seed.ts"
+        "tmp_seed.ts",
+        "*.ts",
+        "*.js"
     ]
 }
