@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getTransferenciasCGU } from "@/lib/cgu-service";
 
+export const dynamic = 'force-dynamic';
+
 export async function GET(request: NextRequest) {
     const { searchParams } = new URL(request.url);
     const mes = searchParams.get("mes") || "03";
