@@ -1,7 +1,9 @@
+import { unstable_noStore as noStore } from 'next/cache';
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 
 export async function GET() {
+  noStore();
     try {
         // Estatísticas da Ouvidoria
         const ouvidoriaPorTipo = await prisma.ouvidoria.groupBy({

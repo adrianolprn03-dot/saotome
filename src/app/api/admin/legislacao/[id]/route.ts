@@ -1,7 +1,9 @@
+import { unstable_noStore as noStore } from 'next/cache';
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 
 export async function GET(_req: NextRequest, { params }: { params: { id: string } }) {
+  noStore();
     const item = await prisma.legislacao.findUnique({ where: { id: params.id } });
     if (!item) return NextResponse.json({ error: "Não encontrado" }, { status: 404 });
     return NextResponse.json(item);

@@ -1,3 +1,4 @@
+import { unstable_noStore as noStore } from 'next/cache';
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 
@@ -22,6 +23,7 @@ export async function POST(req: NextRequest) {
 }
 
 export async function GET() {
+  noStore();
     try {
         const contatos = await prisma.contato.findMany({
             orderBy: { criadoEm: "desc" },

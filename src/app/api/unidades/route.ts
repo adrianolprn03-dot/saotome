@@ -1,3 +1,4 @@
+import { unstable_noStore as noStore } from 'next/cache';
 import { NextResponse } from "next/server";
 import { PrismaClient } from "@prisma/client";
 
@@ -6,6 +7,7 @@ export const dynamic = 'force-dynamic';
 const prisma = new PrismaClient();
 
 export async function GET(request: Request) {
+  noStore();
     try {
         const { searchParams } = new URL(request.url);
         const tipo = searchParams.get("tipo");

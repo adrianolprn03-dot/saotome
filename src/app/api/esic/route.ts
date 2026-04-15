@@ -1,3 +1,4 @@
+import { unstable_noStore as noStore } from 'next/cache';
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { verifyESICToken } from "@/lib/esic-auth";
@@ -45,6 +46,7 @@ export async function POST(req: NextRequest) {
 }
 
 export async function GET(req: NextRequest) {
+  noStore();
     const { searchParams } = new URL(req.url);
     const status = searchParams.get("status");
     const where = status ? { status } : {};

@@ -1,9 +1,11 @@
+import { unstable_noStore as noStore } from 'next/cache';
 import { prisma } from "@/lib/prisma";
 import { NextResponse } from "next/server";
 
 export const dynamic = 'force-dynamic';
 
 export async function GET(request: Request) {
+  noStore();
     const { searchParams } = new URL(request.url);
     const status = searchParams.get("status");
     const sigilo = searchParams.get("sigilo");

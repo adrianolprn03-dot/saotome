@@ -1,9 +1,11 @@
+import { unstable_noStore as noStore } from 'next/cache';
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 
 export async function GET() {
+  noStore();
     try {
         const items = await prisma.servicoCarta.findMany({ orderBy: { categoria: "asc" } });
         return NextResponse.json(items);

@@ -1,3 +1,4 @@
+import { unstable_noStore as noStore } from 'next/cache';
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { revalidatePath } from "next/cache";
@@ -5,6 +6,7 @@ import { revalidatePath } from "next/cache";
 export const dynamic = 'force-dynamic';
 
 export async function GET(req: NextRequest) {
+  noStore();
     try {
         const { searchParams } = new URL(req.url);
         const tipo = searchParams.get("tipo");

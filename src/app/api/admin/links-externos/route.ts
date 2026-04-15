@@ -1,9 +1,11 @@
+import { unstable_noStore as noStore } from 'next/cache';
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 
 const db = prisma as any;
 
 export async function GET() {
+  noStore();
     try {
         const links = await db.linkExterno.findMany({
             orderBy: [{ ordem: "asc" }, { criadoEm: "desc" }],

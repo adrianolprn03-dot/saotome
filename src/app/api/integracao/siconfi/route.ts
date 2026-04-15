@@ -1,9 +1,11 @@
+import { unstable_noStore as noStore } from 'next/cache';
 import { NextRequest, NextResponse } from "next/server";
 import { getRREOSiconfi, getRGFSiconfi } from "@/lib/siconfi-service";
 
 export const dynamic = 'force-dynamic';
 
 export async function GET(request: NextRequest) {
+  noStore();
     const { searchParams } = new URL(request.url);
     const tipo = searchParams.get("tipo") || "rreo";
     const ano = parseInt(searchParams.get("ano") || new Date().getFullYear().toString());

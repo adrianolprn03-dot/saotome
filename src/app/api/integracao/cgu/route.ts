@@ -1,9 +1,11 @@
+import { unstable_noStore as noStore } from 'next/cache';
 import { NextRequest, NextResponse } from "next/server";
 import { getTransferenciasCGU } from "@/lib/cgu-service";
 
 export const dynamic = 'force-dynamic';
 
 export async function GET(request: NextRequest) {
+  noStore();
     const { searchParams } = new URL(request.url);
     const mes = searchParams.get("mes") || "03";
     const ano = searchParams.get("ano") || "2024";

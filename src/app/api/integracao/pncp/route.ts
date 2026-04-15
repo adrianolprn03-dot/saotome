@@ -1,9 +1,11 @@
+import { unstable_noStore as noStore } from 'next/cache';
 import { NextRequest, NextResponse } from "next/server";
 import { getLicitacoesPNCP } from "@/lib/pncp-service";
 
 export const dynamic = 'force-dynamic';
 
 export async function GET(request: NextRequest) {
+  noStore();
     const { searchParams } = new URL(request.url);
     const pagina = parseInt(searchParams.get("pagina") || "1");
     const tamanho = parseInt(searchParams.get("tamanho") || "10");
