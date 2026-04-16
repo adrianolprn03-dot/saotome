@@ -1,6 +1,5 @@
-export const dynamic = 'force-dynamic';
-﻿"use client";
-import { useState } from "react";
+"use client";
+export const dynamic = 'force-dynamic';import { useState } from "react";
 import PageHeader from "@/components/PageHeader";
 import { HelpCircle, ChevronDown, ChevronUp, Landmark, Info, MessageCircle, FileText } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";

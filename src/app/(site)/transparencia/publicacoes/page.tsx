@@ -1,6 +1,5 @@
-export const dynamic = 'force-dynamic';
-﻿"use client";
-import { useState, useEffect } from "react";
+"use client";
+export const dynamic = 'force-dynamic';import { useState, useEffect } from "react";
 import { FaNewspaper, FaSpinner, FaDownload, FaSearch, FaCalendarAlt, FaTag, FaFilter } from "react-icons/fa";
 import { FileText } from "lucide-react";
 import PageHeader from "@/components/PageHeader";

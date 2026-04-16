@@ -1,6 +1,5 @@
-export const dynamic = 'force-dynamic';
-﻿"use client";
-import { useState, useEffect } from "react";
+"use client";
+export const dynamic = 'force-dynamic';import { useState, useEffect } from "react";
 import { 
     FaHammer, FaMapMarkerAlt, FaCalendarAlt, FaBuilding, 
     FaChartLine, FaSpinner, FaArrowRight, FaImage,

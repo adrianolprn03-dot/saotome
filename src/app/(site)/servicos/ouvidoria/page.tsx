@@ -1,6 +1,5 @@
-export const dynamic = 'force-dynamic';
-﻿"use client";
-import { useState } from "react";
+"use client";
+export const dynamic = 'force-dynamic';import { useState } from "react";
 import { FaSearch, FaQuestionCircle, FaChartBar, FaUserShield, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaClock, FaClipboardList, FaFileAlt, FaSmile, FaExternalLinkAlt, FaShieldAlt, FaInfoCircle } from "react-icons/fa";
 import toast from "react-hot-toast";
 import PageHeader from "@/components/PageHeader";

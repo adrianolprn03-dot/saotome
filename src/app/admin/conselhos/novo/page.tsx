@@ -1,6 +1,5 @@
-export const dynamic = 'force-dynamic';
-﻿"use client";
-import { useState } from "react";
+"use client";
+export const dynamic = 'force-dynamic';import { useState } from "react";
 import { useRouter } from "next/navigation";
 import toast from "react-hot-toast";
 import { FaUsers, FaArrowLeft } from "react-icons/fa";

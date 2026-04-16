@@ -1,6 +1,5 @@
-export const dynamic = 'force-dynamic';
-﻿"use client";
-import { useState, useEffect } from "react";
+"use client";
+export const dynamic = 'force-dynamic';import { useState, useEffect } from "react";
 import { FaSpinner, FaBuilding, FaCheckCircle, FaWallet, FaUserTie } from "react-icons/fa";
 import { exportToCSV, exportToJSON, exportToPDF, exportToXLSX } from "@/lib/exportUtils";
 import TransparencyFilters from "@/components/transparencia/TransparencyFilters";

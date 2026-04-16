@@ -1,6 +1,5 @@
-export const dynamic = 'force-dynamic';
-﻿"use client";
-import type { Metadata } from "next";
+"use client";
+export const dynamic = 'force-dynamic';import type { Metadata } from "next";
 import Link from "next/link";
 import { 
     FaExchangeAlt, FaExternalLinkAlt, FaInfoCircle, FaHospital, 

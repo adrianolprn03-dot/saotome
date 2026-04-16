@@ -1,6 +1,5 @@
-export const dynamic = 'force-dynamic';
-﻿"use client";
-
+"use client";
+export const dynamic = 'force-dynamic';
 import Link from "next/link";
 import { 
     TrendingUp, BarChart3, Gavel, FileSignature, Handshake, 

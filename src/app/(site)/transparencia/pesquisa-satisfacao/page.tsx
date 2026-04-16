@@ -1,6 +1,5 @@
-export const dynamic = 'force-dynamic';
-﻿"use client";
-import { useState } from "react";
+"use client";
+export const dynamic = 'force-dynamic';import { useState } from "react";
 import PageHeader from "@/components/PageHeader";
 import { FaCheckCircle, FaStar, FaRegStar } from "react-icons/fa";
 

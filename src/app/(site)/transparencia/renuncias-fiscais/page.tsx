@@ -1,6 +1,5 @@
-export const dynamic = 'force-dynamic';
-﻿"use client";
-import { 
+"use client";
+export const dynamic = 'force-dynamic';import { 
     FaChartLine, FaInfoCircle, FaDownload, 
     FaCoins, FaArrowRight
 } from "react-icons/fa";
