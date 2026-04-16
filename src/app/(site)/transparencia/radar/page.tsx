@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 ﻿import type { Metadata } from "next";
 import { FaChartBar, FaExternalLinkAlt, FaShieldAlt, FaCheckCircle, FaStar, FaInfoCircle } from "react-icons/fa";
 import { Activity } from "lucide-react";

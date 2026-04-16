@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 ﻿import type { Metadata } from "next";
 import { FaMusic, FaRunning, FaTheaterMasks, FaBook, FaTrophy, FaExternalLinkAlt, FaFileAlt, FaCalendarAlt, FaMoneyBillWave } from "react-icons/fa";
 import { Star } from "lucide-react";

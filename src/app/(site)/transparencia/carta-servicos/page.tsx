@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 ﻿import { prisma } from "@/lib/prisma";
 import PageHeader from "@/components/PageHeader";
 import { FaBook, FaArrowRight, FaMapMarkerAlt, FaFileAlt, FaClock } from "react-icons/fa";

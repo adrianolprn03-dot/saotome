@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = 'force-dynamic';
 import { useState, useEffect } from "react";
 import { FaUsers, FaPlus, FaEdit, FaTrash, FaSpinner, FaSearch, FaBriefcase, FaLock, FaCheckCircle } from "react-icons/fa";
 import toast from "react-hot-toast";

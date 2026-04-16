@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 ﻿import type { Metadata } from "next";
 import { FaVirus, FaHandsWash, FaHospital, FaMoneyBillWave, FaExternalLinkAlt, FaInfoCircle, FaCheckCircle, FaFilePdf } from "react-icons/fa";
 import { Shield } from "lucide-react";

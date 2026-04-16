@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import { FaCapsules, FaSearch, FaCheckCircle, FaExclamationTriangle, FaClock } from "react-icons/fa";

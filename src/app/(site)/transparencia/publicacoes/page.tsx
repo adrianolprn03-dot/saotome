@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 ﻿"use client";
 import { useState, useEffect } from "react";
 import { FaNewspaper, FaSpinner, FaDownload, FaSearch, FaCalendarAlt, FaTag, FaFilter } from "react-icons/fa";

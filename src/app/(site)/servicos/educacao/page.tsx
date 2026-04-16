@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = 'force-dynamic';
 import PageHeader from "@/components/PageHeader";
 import { FaGraduationCap, FaMapMarkerAlt, FaPhoneAlt, FaClock } from "react-icons/fa";
 

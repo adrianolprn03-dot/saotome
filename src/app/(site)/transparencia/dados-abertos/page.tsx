@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 ﻿"use client";
 import Link from "next/link";
 import { FaDownload, FaDatabase, FaTable, FaCheckCircle, FaLock, FaBolt } from "react-icons/fa";

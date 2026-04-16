@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = 'force-dynamic';
 import { useState, useEffect } from "react";
 import { FaPlus, FaSearch, FaEdit, FaTrash, FaSpinner, FaGavel } from "react-icons/fa";
 import Link from "next/link";

@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 ﻿"use client";
 import { useState } from "react";
 import { FaSearch, FaQuestionCircle, FaChartBar, FaUserShield, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaClock, FaClipboardList, FaFileAlt, FaSmile, FaExternalLinkAlt, FaShieldAlt, FaInfoCircle } from "react-icons/fa";

@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 ﻿import { prisma } from "@/lib/prisma";
 import FrotaClient from "./_FrotaClient";
 import type { Metadata } from "next";

@@ -1,4 +1,5 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
     title: "Portal da Transparência | Prefeitura de São Tomé",

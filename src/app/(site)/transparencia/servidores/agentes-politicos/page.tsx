@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import PageHeader from "@/components/PageHeader";
 import { FaIdCardAlt, FaInfoCircle } from "react-icons/fa";
 import BannerPNTP from "@/components/transparencia/BannerPNTP";

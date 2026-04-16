@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import PageHeader from "@/components/PageHeader";
 import { FaFilePdf, FaChartLine, FaDownload, FaInbox, FaCheckCircle, FaLink, FaGlobe, FaExternalLinkAlt, FaSync } from "react-icons/fa";
 import { prisma } from "@/lib/prisma";

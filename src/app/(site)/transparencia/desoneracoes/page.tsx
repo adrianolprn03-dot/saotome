@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 ﻿import type { Metadata } from "next";
 import { FaPercentage, FaChartBar, FaInfoCircle, FaFileAlt, FaBuilding } from "react-icons/fa";
 import { TrendingDown } from "lucide-react";

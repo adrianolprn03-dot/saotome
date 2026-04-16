@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 ﻿import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import { FaUserTie, FaUsers, FaBuilding } from "react-icons/fa";

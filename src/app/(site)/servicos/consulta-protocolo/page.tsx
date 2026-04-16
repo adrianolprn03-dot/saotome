@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = 'force-dynamic';
 import { useState } from "react";
 import PageHeader from "@/components/PageHeader";
 import { FaSearch, FaSpinner, FaFileAlt, FaLock, FaExclamationTriangle, FaCheckCircle, FaPaperclip, FaClock } from "react-icons/fa";

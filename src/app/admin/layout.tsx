@@ -4,6 +4,8 @@ import { authOptions } from "@/lib/auth";
 import AdminSidebar from "@/components/admin/AdminSidebar";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
+export const dynamic = 'force-dynamic';
+
 export default async function AdminLayout({ children }: { children: React.ReactNode }) {
     const session = await getServerSession(authOptions);
 

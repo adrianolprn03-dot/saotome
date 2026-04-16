@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import { FaBuilding, FaGlobe, FaClock, FaMapMarkerAlt, FaBriefcase, FaFontAwesomeFlag, FaUsers } from "react-icons/fa";

@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = 'force-dynamic';
 import PageHeader from "@/components/PageHeader";
 import Link from "next/link";
 import { motion } from "framer-motion";

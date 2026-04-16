@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 ﻿import { prisma } from "@/lib/prisma";
 import { FaBook } from "react-icons/fa";
 import PageHeader from "@/components/PageHeader";

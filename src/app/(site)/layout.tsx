@@ -2,6 +2,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import AccessibilityProvider from "@/components/AccessibilityProvider";
 
+export const dynamic = "force-dynamic";
+
 export default function SiteLayout({ children }: { children: React.ReactNode }) {
     return (
         <AccessibilityProvider>

@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 ﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { FaFileInvoiceDollar, FaExternalLinkAlt, FaInfoCircle, FaPhoneAlt, FaEnvelope } from "react-icons/fa";

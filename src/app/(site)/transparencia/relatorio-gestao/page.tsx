@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = 'force-dynamic';
 import RelatoriosFiscaisTemplate from "@/components/transparencia/RelatoriosFiscaisTemplate";
 import { FaClipboardList } from "react-icons/fa";
 

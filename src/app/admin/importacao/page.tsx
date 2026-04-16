@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = 'force-dynamic';
 import { useState } from "react";
 import toast from "react-hot-toast";
 import { FaUpload, FaFileAlt, FaCheckCircle, FaExclamationTriangle } from "react-icons/fa";

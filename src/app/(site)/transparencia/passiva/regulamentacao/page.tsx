@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import { ScrollText, Gavel, FileText, ExternalLink, Scale, CheckCircle, ArrowRight } from "lucide-react";

@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 ﻿import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import { BarChart3, Info, TrendingUp, Download, PieChart } from "lucide-react";

@@ -1,8 +1,6 @@
 import { unstable_noStore as noStore } from 'next/cache';
-import { NextResponse } from "next/server";
-import { PrismaClient } from "@prisma/client";
-
-const prisma = new PrismaClient();
+import { prisma } from "@/lib/prisma";
+import { unstable_noStore as noStore } from 'next/cache';
 
 export async function GET(
     request: Request,
