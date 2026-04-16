@@ -1,5 +1,5 @@
+"use client";
 export const dynamic = 'force-dynamic';
-﻿"use client";
 import Link from "next/link";
 import { FaSitemap, FaChevronRight, FaGlobe, FaLandmark, FaUsers, FaNewspaper, FaConciergeBell } from "react-icons/fa";
 import PageHeader from "@/components/PageHeader";

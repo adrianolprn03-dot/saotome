@@ -1,5 +1,5 @@
+"use client";
 export const dynamic = 'force-dynamic';
-﻿"use client";
 import { useState } from "react";
 import PageHeader from "@/components/PageHeader";
 import { FaPaperPlane, FaPhoneAlt, FaMapMarkerAlt, FaEnvelope, FaClock } from "react-icons/fa";
